@@ -1,17 +1,5 @@
-name: Test Action
-
-on:
-  push:
-    branches:
-      - main  # This will trigger the action on a push to the main branch
-
 jobs:
   test:
-    runs-on: ubuntu-latest  # This job will run on an Ubuntu server
-
     steps:
-      - name: Checkout code  # This step checks out your repository's code
-        uses: actions/checkout@v3
-
-      - name: 23f1001420@ds.study.iitm.ac.in  # This step prints a message to the log
-        run: echo "Hello, world!"  # The command that will be executed
+      - name: 23f1001420@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
